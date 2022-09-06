@@ -1,0 +1,718 @@
+* { padding: 0;
+    margin: 0;
+    border: none;
+}
+body {
+    margin: 0;
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    line-height: 1.6;
+    color: white;
+     font-weight: 100;
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6,img{
+    margin:0;
+    color:gray;
+    font-family: 'Comfortaa';
+}
+span{
+    font-family: 'Comfortaa';
+    color:red;
+}
+
+
+
+/*container*/
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #E84500;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+}
+
+
+
+/*intro*/
+.intro{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/car_black-211363%201.png") center
+        no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+/*header*/
+.header{
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 1000;
+    
+}
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+
+/*logo*/
+a{
+    color: white;
+    text-decoration:none;
+}
+.header__logo{ 
+    display: inline-flex;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-family:  'Alfa Slab One';
+    color:white;
+    font-size: 30px;
+}
+
+
+
+
+/*nav*/
+.nav{
+    font-size: 12;
+    margin-right: 100px;
+}
+.nav__link{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+    color:white;
+    text-decoration: none;
+    transition: color .2s linear;
+}
+.nav__link:hover{
+    color: black;
+    text-decoration: overline;
+    
+}
+
+
+
+/*text*/
+.text1{
+    text-align: center;
+    margin-top:400px;
+   
+}
+
+.text1 h2,h3{
+    color: #fff;
+}
+
+
+
+
+/*
+
+
+TXT-TITLE
+*/
+.econom{
+     margin-top:120px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.txt_econom{
+    color:black;
+    font-family: 'Comfortaa';
+    font-size: 30px;
+   
+}
+
+
+
+
+/*Frame*/
+
+.info {
+    width: 280px;
+    height: 220px;
+    background-color: black;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px -3px 15px  gray;
+}
+.row-md-4{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.image img{
+    
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    width:280px;
+    height:220px;
+     box-shadow: 10px -3px 15px  gray;
+
+}
+.price{
+    color:#fff;
+}
+.info__price h4, span{
+    color:#fff;
+     margin-top:20px;
+}
+.add-to-car{
+    width: 160px;
+    height: 60px;
+    border-radius: 15px;
+    border:none;
+    font-family: 'Comfortaa';
+    background-color: #F67C48;
+    color:#fff;
+    font-size: 15px;
+    
+}
+.info__price{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.add__car{
+    display: flex;
+    justify-content: center;
+    margin-top:60px;
+    
+}
+.product{
+    margin-bottom:100px
+}
+
+
+
+/*POROG*/
+
+.porog{
+    background-color: #E84500 ;
+    height: 230px;
+    border-radius: 0px 0px 30px 30px;
+}
+.title-1{
+    display: flex;
+    justify-content: center;
+    
+}
+.porog h5{
+    font-size: 30px;
+    font-family: 'Comfortaa';
+    color:#fff;
+    margin-top:10px;
+}
+.icon_s{
+    display: flex;
+    justify-content: space-around;
+}
+.svg_icon object{
+    margin-top:15px;
+}
+.info_porog{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 50px 50px;
+}
+.txt_porog{
+    font-size: 20px;
+}
+.txt_comm1{
+    font-size: 12px;
+    margin-left: 90px;
+}
+.txt_comm2{
+    font-size: 12px;
+    margin-left: 17px;
+}
+.txt_comm3{
+    font-size: 12px;
+    margin-left: 7px;
+}
+.txt-1{  
+    margin-left: 10px;
+}
+.txt-2{
+    margin-left: 110px;
+}
+.txt-3{
+    margin-left: 150px;
+}
+
+
+
+/*Discription*/
+
+txt, h6{
+    color:#000000;
+}
+.text-discrip h6{
+    font-size: 20px;
+}
+.text-discrip txt{
+    font-size: 12px;
+}
+.discrip{
+    margin-top:70px;
+    margin-left: 50px;
+     margin-right: 50px;
+    margin-bottom: 70px;
+}
+
+
+
+/*foot*/
+.pod{
+    display: flex;
+    height: 450px;
+    background-color: #000000;
+    flex-flow: row;
+    align-items: center;
+}
+.pod-black{
+    display: flex;
+}
+
+.con-txt-1  h1{
+    
+    color:#fff;
+    font-size: 20px;
+}.con-txt-1{
+    margin-left: 50px;
+}
+
+.con-txt-2 h1{
+    color:#fff;
+    font-size: 20px;
+    
+}.con-txt-2{
+    margin-left: 160px;
+}
+
+.con-txt-3 txt{
+    color:white;
+    font-size: 12px;
+}
+.con-txt-3 h1{
+    color:#fff;
+    font-size: 20px;
+}.con-txt-3{
+    margin-left: 130px;
+}
+
+
+.txt-con{
+    color:#fff;
+    font-size: 12px;
+}
+.icon-t{
+    color:#fff;
+    font-family:  'Alfa Slab One';
+    font-size: 30px;
+}
+
+
+
+
+
+/*right-window-css*/
+.tex_info span{
+    display: flex;
+    color:black;
+    margin-top:120px;
+    margin-left:50px;
+     margin-right: 50px;
+    margin-bottom: 100px;
+}
+.tex_infos h6{
+    font-size: 20px;
+    
+}.tex_infos txt{
+    font-size: 12px;   
+}
+.tex_infos{
+   flex-direction: column;
+}
+
+/*contact-window-css*/
+
+.conect{
+    display: flex;
+    flex-flow: column;
+     margin-top:120px;
+    margin-left:50px;
+     margin-right: 50px;
+    margin-bottom: 100px;
+}
+.conect h6{
+    font-size: 20px;
+}
+
+.conect txt{
+    font-size: 20px;
+}
+.txt-conect{
+    flex-direction: column;
+}
+.blocky{
+ display: flex;
+flex-flow: row;
+ justify-content: space-around;
+    
+}
+.information{
+    margin-top:70px;
+}
+.information span{
+    color:black;
+    font-size: 12px; 
+    
+}
+
+
+
+
+/*AboutUS*/
+
+.texUS_info span{
+    display: flex;
+    color:black;
+    margin-top:120px;
+    margin-left:50px;
+     margin-right: 50px;
+    margin-bottom: 100px;
+}
+.texUS_infos h6{
+    font-size: 20px;
+    
+}.texUS_infos txt{
+    font-size: 12px;   
+}
+.texUS_infos{
+   flex-direction: column;
+}
+
+
+
+
+
+
+/*reception*/
+.pole-next{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 821px;
+    background-color: #B66743;
+    flex-direction: column;
+    
+}
+
+.block-next{
+    display:flex;
+    background-color: black;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    flex-flow: column;
+}
+.arrow-2 {
+    cursor: pointer;
+    position: relative;
+    margin-right: 400px;
+}
+.arrow-2-top, 
+.arrow-2-bottom {
+    background: #ff4f01;
+    height: 10px;
+    left: 450px;
+    position: absolute;
+    top: 15px;
+    width: 25px;
+    border-radius: 3px;
+}
+.arrow-2-top {
+    top: 30px;
+}
+.arrow-2-top {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+}
+.arrow-2-bottom {
+    transform: rotate(-45deg);
+    transform-origin: top right;
+}
+.arrow-2-top::after, 
+.arrow-2-bottom::after {
+    background: #fff;
+    content: '';
+    height: 100%;
+    position: absolute;
+    top: 0;
+    transition: all 0.15s;
+    border-radius: 3px;
+}
+.arrow-2-top::after {
+    left: 100%;
+    right: 0;
+    transition-delay: 0s;
+}
+.arrow-2-bottom::after {
+    left: 0;
+    right: 100%;
+    transition-delay: 0.15s;
+}
+.arrow-2:hover .arrow-2-top::after {
+    left: 0;
+    transition-delay: 0.15s;
+}
+.arrow-2:hover .arrow-2-bottom::after {
+    right: 0;
+    transition-delay: 0s;
+}
+
+
+.in-rec{
+    display: flex;
+    flex-direction: row;
+    margin-top:px;
+}
+.inpuT{
+    display:flex;
+    width: 120px;
+    height: 50px;
+    background-color: #FF4F00;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 5px 5px black;
+    
+    
+}
+.receptioN{
+     display:flex;
+    width: 120px;
+    height: 50px;
+    background-color: #F67C48;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.inpuT txt{
+    display:flex;
+    text-decoration: underline;
+    color:white;
+    font-size: 12px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.receptioN txt{
+    display:flex;
+    transition: color .2s;
+   text-decoration: underline;
+    color:white;
+     font-size: 12px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.receptioN txt:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.txt-next h6{
+    color: white;
+    font-size: 20px;
+}
+.txt-next{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 35px;
+}
+.forms{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.forms b{
+    color: #fff;
+    font-size: 12px;
+}
+
+
+
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    background-color:#F67C48; 
+    width: 400px;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border:none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top:20px;
+    font-family: 'Comfortaa';
+    font-size: 12px;
+}
+input::-webkit-input-placeholder { color: white; }
+
+/* Set a style for all buttons */
+button {
+    background-color: #FF4F00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-family: 'Comfortaa';
+    margin-top:30px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* The "Forgot password" text */
+span.psw {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Rception-2*/
+
+
+
+.block-next2{
+    display:flex;
+    background-color: black;
+    width: 500px;
+    height: 580px;
+    border-radius: 20px;
+    flex-flow: column;
+}
+
+.inpuT-2{
+    display:flex;
+    width: 120px;
+    height: 50px;
+    background-color: #F67C48;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 3px 5px 5px black;
+    
+    
+}
+.receptioN-2{
+     display:flex;
+    width: 120px;
+    height: 50px;
+    background-color: #FF4F00;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+.inpuT-2 txt{
+    display:flex;
+      transition: color .2s;
+    text-decoration: underline;
+    color:white;
+    font-size: 12px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.inpuT-2 txt:hover{
+    color:black;
+    text-decoration: none;
+}
+
+.receptioN-2 txt{
+    display:flex;
+   text-decoration: underline;
+    color:white;
+     font-size: 12px;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.block-next2 button  {
+    background-color: #FF4F00;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-family: 'Comfortaa';
+    margin-top:30px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+
+
+
+
+
